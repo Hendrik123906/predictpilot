@@ -1,0 +1,30 @@
+[
+  {
+    "pda": "3kMJEmFHXMh59qFfQfFBN6oRc5XKYyuEjGT75YhG4qWm",
+    "marketId": "45328785256062",
+    "name": "SOL > $69.82 by 04:30?",
+    "symbol": "SOL",
+    "strike": 69.82,
+    "endTs": 1794691831,
+    "createdAt": "2026-11-14T21:24:34.998Z",
+    "depositUsdc": 20,
+    "tradeSide": "yes",
+    "tradeAmount": 5,
+    "settled": {
+      "outcome": "yes",
+      "priceAtExpiry": 69.93,
+      "claimSig": "3gDSATG1y7qFNuTQ9urwvdecHjTF2AS12TJpiRC7Sefx8mW5xbnbWeLuXhKUALrXYQYjmGE6FjqXTuBjWorKUmSu",
+      "resolveSig": "5bJD9BkyY6C1i4kW9LKCkFPKri5k1R4MVSSwojW6tmnTFxU11dxjCT1eWi6Nj5osSqJwByaMyVAPRVquJbnA8b32"
+    }
+  },
+  {
+    "pda": "Fg7W3cuevmt3coCLhqR6xR7eih2Ci9tirRijsxT8Rt1",
+    "marketId": "60479092625082",
+    "name": "SOL > $70.48 by 05:43?",
+    "symbol": "SOL",
+    "strike": 70.48,
+    "endTs": 1794696200,
+    "createdAt": "2026-11-14T21:43:31.085Z",
+    "depositUsdc": 50
+  }
+]
