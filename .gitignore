@@ -1,0 +1,10 @@
+node_modules/
+devnet-wallet.json
+markets.json
+activity.json
+price-history.json
+check-*.cjs
+find-market.cjs
+run.cjs
+*.log
+.DS_Store
