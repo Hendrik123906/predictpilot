@@ -29,8 +29,10 @@ test SOL/mock USDC from the faucet when low.
 ## Links
 - Repo: https://github.com/Hendrik123906/predictpilot
 - Dashboard: https://hendrik123906.github.io/predictpilot/ (PENDING — push + Pages deploy)
-- Demo video: quickstart/demo/predictpilot-demo-v1.mp4 (76s, narrated;
-  v2 to be re-recorded from the live URL)
+- Demo video: quickstart/demo/predictpilot-demo-v2.mp4 (77s, narrated,
+  recorded from the live Pages URL)
+- **X post (LIVE 15 Nov 05:09 WIB): https://x.com/Selimar30/status/2121727338807435697**
+  (video v2 attached, verified playable)
 - Example live market: https://pm-amm-devnet.vercel.app/market/60479092625082
 - pm-AMM program (devnet): GV1FMGHRYBjQLaghE5fnGuYCuCcpdt3GD5xEX3TwN16y
 - Agent wallet (devnet only): 5hkydCE14hV7SzhFyuAsWPpmkguv1Pk4VqKR7dBFTRcz
