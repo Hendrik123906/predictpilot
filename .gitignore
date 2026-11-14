@@ -8,3 +8,6 @@ find-market.cjs
 run.cjs
 *.log
 .DS_Store
+frontend/out/
+frontend/.next/
+dash-timing.cjs
