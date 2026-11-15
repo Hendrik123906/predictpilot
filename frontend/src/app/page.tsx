@@ -104,7 +104,7 @@ export default function Home() {
         </p>
         <div className="mt-5 flex flex-wrap gap-2 text-xs">
           <span className="rounded-full bg-violet-600/20 px-3 py-1 font-semibold text-violet-300">Momentum rule: price &gt; 1h MA + rising 15m → YES</span>
-          <span className="rounded-full bg-white/5 px-3 py-1 text-white/70">1h markets, 20 mUSDC LP</span>
+          <span className="rounded-full bg-white/5 px-3 py-1 text-white/70">1h markets, 50 mUSDC LP</span>
           <span className="rounded-full bg-white/5 px-3 py-1 text-white/70">10 mUSDC per trade</span>
           <span className="rounded-full bg-white/5 px-3 py-1 text-white/70">2% swap fee</span>
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
           <Card>
             <p className="text-2xl font-black text-violet-400">1</p>
             <p className="mt-2 font-bold">Watch SOL, set the strike</p>
-            <p className="mt-1 text-sm leading-relaxed text-white/60">Every hour the agent fetches the live SOL price and its 1-hour moving average from public market data, then creates a “SOL &gt; $strike by next hour?” market with 20 mUSDC of liquidity.</p>
+            <p className="mt-1 text-sm leading-relaxed text-white/60">Every hour the agent fetches the live SOL price and its 1-hour moving average from public market data, then creates a “SOL &gt; $strike by next hour?” market with 50 mUSDC of liquidity.</p>
           </Card>
           <Card>
             <p className="text-2xl font-black text-violet-400">2</p>

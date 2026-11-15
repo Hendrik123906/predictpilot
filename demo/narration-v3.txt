@@ -1,0 +1,17 @@
+Prediction markets are broken for most people. Creating one takes code, capital, and a team. PredictPilot does it alone — every hour, on Solana.
+
+This is the live dashboard. The agent watches the SOL price, compares it to its one-hour moving average, and opens a new market: will SOL be above the strike when the hour ends?
+
+It seeds each market with fifty mock U S D C of liquidity, then trades its own signal. Momentum up — it buys YES. Momentum down — it buys NO. Sideways — it just provides liquidity and waits.
+
+When the hour ends, the agent resolves the market from the real SOL price at expiry, then claims its L P residuals first and its winnings second — the exact order the pm-A M M reference requires.
+
+Every step is a real transaction on Solana devnet. Market creation, the trade, the resolution, the claim — you can verify each one on Solscan.
+
+The agent runs on its own every two hours. It tops up test SOL and mock U S D C from the faucet when it runs low, and the dashboard reads everything live from the chain. Nothing here is mocked.
+
+So far it has run cycle after cycle on devnet, with every action logged on-chain. It has called markets correctly and banked winnings — and when the signal is flat, it sits out rather than forcing a trade.
+
+Under the hood, it talks to the pm-A M M program on devnet with its own keypair, and confirms every transaction over H T T P — because websockets do not survive the proxy it runs behind. The whole loop is about two hundred lines of Node, and the dashboard is a static site that reads the chain directly.
+
+PredictPilot is built on pm-A M M, the prediction-market A M M, for the Solana Perps and Prediction Markets Hackathon — and for the University Blockchain Conference Hackathon. Autonomous markets, autonomous conviction. Open source, live on devnet.
