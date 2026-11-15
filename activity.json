@@ -60,5 +60,350 @@
     "type": "trade-skip",
     "market": "Fg7W3cuevmt3coCLhqR6xR7eih2Ci9tirRijsxT8Rt1",
     "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-14T22:43:56.747Z",
+    "type": "resolve",
+    "market": "Fg7W3cuevmt3coCLhqR6xR7eih2Ci9tirRijsxT8Rt1",
+    "outcome": "no",
+    "priceAtExpiry": 69.53,
+    "strike": 70.48,
+    "sig": "2NcKj6Gmit7iAVH24ByiSHcbJPaNZJb6wrf4TtVs1zGwRaugDKVdh78JxoTsLe5JBc8a7aCgPFfBT62omYJEzUmn",
+    "note": "resolved NO (SOL $69.53 vs $70.48)"
+  },
+  {
+    "ts": "2026-11-14T22:43:59.134Z",
+    "type": "claim-lp",
+    "market": "Fg7W3cuevmt3coCLhqR6xR7eih2Ci9tirRijsxT8Rt1",
+    "sig": "3BvacY4ntnQf7jf8derF8DdM2UiHhXesGwQJqYf8XhbDKuLkrBaCY9xGkeTj3nQK4BtVXKqXxcBnw9pGnGHKr3th",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-14T22:44:01.562Z",
+    "type": "claim",
+    "market": "Fg7W3cuevmt3coCLhqR6xR7eih2Ci9tirRijsxT8Rt1",
+    "amount": 50,
+    "sig": "3kyT73j8o131o22E6knLUfd16PcHsHM1xqqTMBMpsoGVycuTgzibDpx1MZvneSrN32Mm6LhVQy5obkxKGcVkCMcX",
+    "note": "claimed 50 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-14T23:47:47.976Z",
+    "type": "create",
+    "market": "DLT1ymMD7zDpQrND6ZDTD8N3aaEjRd9TBn3hRfnxfhM7",
+    "marketId": "200270758540978",
+    "name": "SOL > $69.89 by 00:47?",
+    "strike": 69.89,
+    "depositUsdc": 50,
+    "sig": "TANPvwJ1db3gJgwvsF6U2jygq2SYZ28TXvwDmz2UqUdE41ke4e48ZiAnYB7iWFtfSwHqcT1bBzfkJ332EfisHbw",
+    "note": "created \"SOL > $69.89 by 00:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-14T23:47:50.608Z",
+    "type": "trade",
+    "market": "DLT1ymMD7zDpQrND6ZDTD8N3aaEjRd9TBn3hRfnxfhM7",
+    "side": "yes",
+    "amount": 10,
+    "sig": "51sQBuwvyreebFSc53mPCLTSq8QFcYpADDjVeSGuXQ8WNwDorvQkAvW1pTXZpxJwMTd3XXv8epdu2z6XkfHMB3XY",
+    "note": "bought YES 10 mUSDC (momentum) -> YES 55.9%"
+  },
+  {
+    "ts": "2026-11-15T00:50:16.563Z",
+    "type": "resolve",
+    "market": "DLT1ymMD7zDpQrND6ZDTD8N3aaEjRd9TBn3hRfnxfhM7",
+    "outcome": "no",
+    "priceAtExpiry": 69.72,
+    "strike": 69.89,
+    "sig": "38zHpP8L4oUV5LHaGBZCaL16GGThjgF7mfYvzPEpgYv7uJTgZZsYs3jbGFRGEhS8s69yKjBKMWPeFUxJszAfYDQB",
+    "note": "resolved NO (SOL $69.72 vs $69.89)"
+  },
+  {
+    "ts": "2026-11-15T00:50:19.021Z",
+    "type": "claim-lp",
+    "market": "DLT1ymMD7zDpQrND6ZDTD8N3aaEjRd9TBn3hRfnxfhM7",
+    "sig": "28eugmv7ojCwnjwz8FJhoYkfX9Z4GcFSJuCND3o8QFNb8bVATB76WAnjwq3mbPvErsF2ZCaRYphg8c9j8CmCbRkc",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T00:50:21.469Z",
+    "type": "claim",
+    "market": "DLT1ymMD7zDpQrND6ZDTD8N3aaEjRd9TBn3hRfnxfhM7",
+    "amount": 59.799999,
+    "sig": "4gakX8x2db4yTqtFQvkfnHUAZcr47E8d1SgB4HEaPjiq4THQNRb3PHDYntFguhsmY9wT3v2DrJKpnjQ9eQwDK9dt",
+    "note": "claimed 59.799999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T01:47:59.284Z",
+    "type": "create",
+    "market": "9XQxuwJGFcJCTW7hYw6gkNDpnZh6ftWxpYT4iex181NW",
+    "marketId": "19447599761052",
+    "name": "SOL > $67.73 by 02:47?",
+    "strike": 67.73,
+    "depositUsdc": 50,
+    "sig": "3RyYJHLgUAa1F5PcipEbdJqB6fp7TYjXgTnXyePJSWokLoKpMY6HeGSEcJJo1e8UvQsecduUeN9M1K69DhJoScMh",
+    "note": "created \"SOL > $67.73 by 02:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T01:47:59.285Z",
+    "type": "trade-skip",
+    "market": "9XQxuwJGFcJCTW7hYw6gkNDpnZh6ftWxpYT4iex181NW",
+    "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-15T02:48:35.020Z",
+    "type": "resolve",
+    "market": "9XQxuwJGFcJCTW7hYw6gkNDpnZh6ftWxpYT4iex181NW",
+    "outcome": "yes",
+    "priceAtExpiry": 71.06,
+    "strike": 67.73,
+    "sig": "sMtGpbzUTyZu65EvqsKH9GFBURLMMELuE9H2EuGDF7erAVCZCP56tLL3smouMkzdPHkMKYuFuGfAe8tXNrW6J1n",
+    "note": "resolved YES (SOL $71.06 vs $67.73)"
+  },
+  {
+    "ts": "2026-11-15T02:48:39.190Z",
+    "type": "claim-lp",
+    "market": "9XQxuwJGFcJCTW7hYw6gkNDpnZh6ftWxpYT4iex181NW",
+    "sig": "22bCopzmZcREM99zdDE7amCKjDMHV7X2kk9zCwMy5SF3A7PDkM5e4orrk7sBqmigjk7VkupWgBnceGhqb62UgbtH",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T02:48:44.926Z",
+    "type": "claim",
+    "market": "9XQxuwJGFcJCTW7hYw6gkNDpnZh6ftWxpYT4iex181NW",
+    "amount": 49.999999,
+    "sig": "4WGXdwapazakHwHqyNqc9qExiJHAcycALRud3hSBJFrjXsHFoYTBGiJazf3BMaBrwRc85fKui1Lg71yNggBxeKWw",
+    "note": "claimed 49.999999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T03:48:01.874Z",
+    "type": "create",
+    "market": "7WM6ydTRJ3GrLDxkTmqtuSChZgvPYDzmA1ZfNRSga6kw",
+    "marketId": "235110884301463",
+    "name": "SOL > $71.59 by 04:47?",
+    "strike": 71.59,
+    "depositUsdc": 50,
+    "sig": "5hPUSQjF5YHLzFDTVzqbZUzhHCt1ujHEoGpFum3TXmu5FeLWVfditHwFebkoszqxMmsKvrYxbMie4dMCY4dM1hVB",
+    "note": "created \"SOL > $71.59 by 04:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T03:48:01.875Z",
+    "type": "trade-skip",
+    "market": "7WM6ydTRJ3GrLDxkTmqtuSChZgvPYDzmA1ZfNRSga6kw",
+    "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-15T04:49:56.013Z",
+    "type": "resolve",
+    "market": "7WM6ydTRJ3GrLDxkTmqtuSChZgvPYDzmA1ZfNRSga6kw",
+    "outcome": "no",
+    "priceAtExpiry": 71.13,
+    "strike": 71.59,
+    "sig": "3eER3QjfefzhxnF5us2s3Uzy8HXFLWM8A8GSeFBkqGnmpjS85MK6FXd5UZmEFeGsvoTBVmqPs36Nds3SmpGPy6r2",
+    "note": "resolved NO (SOL $71.13 vs $71.59)"
+  },
+  {
+    "ts": "2026-11-15T04:49:58.411Z",
+    "type": "claim-lp",
+    "market": "7WM6ydTRJ3GrLDxkTmqtuSChZgvPYDzmA1ZfNRSga6kw",
+    "sig": "2pHsR5oQzynWkwuKEoU2EsWmdWibFSC2t1Cs6tx8wGq9zGCJF16Bx1prifkhsmU4CUg9v1sqdgrE67zE8Qz3gmSU",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T04:50:00.877Z",
+    "type": "claim",
+    "market": "7WM6ydTRJ3GrLDxkTmqtuSChZgvPYDzmA1ZfNRSga6kw",
+    "amount": 50,
+    "sig": "3V9i69ammHXvrgwUPaQA4iiSMrLsq8kSA7jpuaQKHy1kvogBraHsobee8SWBcDhcrPVEBhJw72pY7aQGhxRbwbTK",
+    "note": "claimed 50 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T05:47:49.379Z",
+    "type": "create",
+    "market": "6PE2iVBUJVuU6Fkwbtdoz8PabSe7iPemsRjDeLiLKvw8",
+    "marketId": "206537856077782",
+    "name": "SOL > $70.94 by 06:47?",
+    "strike": 70.94,
+    "depositUsdc": 50,
+    "sig": "5QfDYVduBwAJGjme7mobQrcRYXozjMmgRCqgWzq8gCgym1mxhXcwQp38ocSWG6WZDdgAoDhM9FYRhb1Zcwcmng9M",
+    "note": "created \"SOL > $70.94 by 06:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T05:47:51.945Z",
+    "type": "trade",
+    "market": "6PE2iVBUJVuU6Fkwbtdoz8PabSe7iPemsRjDeLiLKvw8",
+    "side": "no",
+    "amount": 10,
+    "sig": "2LnWvAUX6gUtfiGKhGtv8B6HLhkS9XRoH8AWK7jFnxJAYRV2n3jf4GLSxYAmSHJca9q8hKo4rfFYeW7bDbigJ7Jc",
+    "note": "bought NO 10 mUSDC (momentum) -> YES 44.1%"
+  },
+  {
+    "ts": "2026-11-15T06:49:36.871Z",
+    "type": "resolve",
+    "market": "6PE2iVBUJVuU6Fkwbtdoz8PabSe7iPemsRjDeLiLKvw8",
+    "outcome": "no",
+    "priceAtExpiry": 70.45,
+    "strike": 70.94,
+    "sig": "Dc3CaGwuixPoKZDkkSBffYeUs1ztYctjqscFbwNvTA9y5VCC31wWN8VicQHLm5UbmqRWmbeZUkDJn8huPSy1K4w",
+    "note": "resolved NO (SOL $70.45 vs $70.94)"
+  },
+  {
+    "ts": "2026-11-15T06:49:39.304Z",
+    "type": "claim-lp",
+    "market": "6PE2iVBUJVuU6Fkwbtdoz8PabSe7iPemsRjDeLiLKvw8",
+    "sig": "2G6nbqwMUxvtXc6x4vCvn7QL7EcWibh8whQaCmtYRN3Zyuub4FjouroMJgmGmkhPcch69BL2maQQCR37TN8Rkzvq",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T06:49:41.770Z",
+    "type": "claim",
+    "market": "6PE2iVBUJVuU6Fkwbtdoz8PabSe7iPemsRjDeLiLKvw8",
+    "amount": 59.799999,
+    "sig": "4qAm4GgnwYA5qmdCB6pvYCqLjqEst8vKtAnoq2hj4kX9ANnhtkBPiwoopwhrWAd7SEbjDZVeBaNi74sz7EYzj8B4",
+    "note": "claimed 59.799999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T07:47:47.210Z",
+    "type": "create",
+    "market": "5tH9H9pn9wDGiHVRw66s7yeeU7hSo6cUumrmj9sSJUhR",
+    "marketId": "97179755573310",
+    "name": "SOL > $69.63 by 08:47?",
+    "strike": 69.63,
+    "depositUsdc": 50,
+    "sig": "49HzWV5G43gP1nw6NdvDw9Ppsxk9pJJG6vomBSSwBifj6JyP7E4TE42J7ZDmvR1QG3KHHXuEohoFQDjDk3dFEiJ6",
+    "note": "created \"SOL > $69.63 by 08:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T07:47:47.211Z",
+    "type": "trade-skip",
+    "market": "5tH9H9pn9wDGiHVRw66s7yeeU7hSo6cUumrmj9sSJUhR",
+    "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-15T08:48:20.646Z",
+    "type": "resolve",
+    "market": "5tH9H9pn9wDGiHVRw66s7yeeU7hSo6cUumrmj9sSJUhR",
+    "outcome": "yes",
+    "priceAtExpiry": 70.57,
+    "strike": 69.63,
+    "sig": "5Xp8y1HnMErhUptUXmVX1b96zRtDowEHvxsAVjTCCHxmgDW7WRXa6fb6z5Wt4UQv65YBPWqJ1soyE4rT9UBPnWoV",
+    "note": "resolved YES (SOL $70.57 vs $69.63)"
+  },
+  {
+    "ts": "2026-11-15T08:48:23.551Z",
+    "type": "claim-lp",
+    "market": "5tH9H9pn9wDGiHVRw66s7yeeU7hSo6cUumrmj9sSJUhR",
+    "sig": "5pFizgsBcMUWYGmeuuKoDzdsE2pG4AJcr1rXqiucyMxHNDenaPZQfNw8JXuXurnQVmpELCzrq4vPu4pRbiu4ethP",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T08:48:27.091Z",
+    "type": "claim",
+    "market": "5tH9H9pn9wDGiHVRw66s7yeeU7hSo6cUumrmj9sSJUhR",
+    "amount": 49.999999,
+    "sig": "5Q5kWu7RqRjcQzJ7s9URoADwdyJ1UzuUpyweLiz8NaCMuoKex8hevgXUhLNmsmhSAc4MBNgXU9ih14VY3U7v3Fun",
+    "note": "claimed 49.999999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T09:47:43.196Z",
+    "type": "create",
+    "market": "3GAjk9CpNLoTsAZuMKMfqvKqh1qFumYu5fYPmU9V2ksv",
+    "marketId": "22318599368187",
+    "name": "SOL > $71.85 by 10:47?",
+    "strike": 71.85,
+    "depositUsdc": 50,
+    "sig": "3YVpTEaHTRGSkPNXYUipzA6xpdAFGc2mtJP2QcMFcHLq18xzSnY3rzYGFdt8L2KVJpzB4dpE7bgFePgjkeu8MaxR",
+    "note": "created \"SOL > $71.85 by 10:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T09:47:43.199Z",
+    "type": "trade-skip",
+    "market": "3GAjk9CpNLoTsAZuMKMfqvKqh1qFumYu5fYPmU9V2ksv",
+    "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-15T10:48:36.796Z",
+    "type": "resolve",
+    "market": "3GAjk9CpNLoTsAZuMKMfqvKqh1qFumYu5fYPmU9V2ksv",
+    "outcome": "yes",
+    "priceAtExpiry": 71.98,
+    "strike": 71.85,
+    "sig": "gzR4C8ANvnTcbt1kwcHjZddtXt9yUSX4FQ9xVQzvPxxDcuyEbPyAwQr4HwGZMAP4GSPxbumGsBz8KPYeP2x1h6w",
+    "note": "resolved YES (SOL $71.98 vs $71.85)"
+  },
+  {
+    "ts": "2026-11-15T10:48:39.165Z",
+    "type": "claim-lp",
+    "market": "3GAjk9CpNLoTsAZuMKMfqvKqh1qFumYu5fYPmU9V2ksv",
+    "sig": "4L2ttENEDXYCa7M3iReSpyRCRNMJJzgDC2pv4S8LeKhPMzxwJku2EVdBaZMRMUmij1g6rCMvTWWgLSgSDVtDPKBk",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T10:48:41.593Z",
+    "type": "claim",
+    "market": "3GAjk9CpNLoTsAZuMKMfqvKqh1qFumYu5fYPmU9V2ksv",
+    "amount": 49.999999,
+    "sig": "5D5NzXfatReBJnwTbvfffAttfWeJsX28TAuqgh4Gaf4Qtcm9TfBxGRNwTyUW7kz6kWYPdoixXBUX1fCy9AHkwNHG",
+    "note": "claimed 49.999999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T11:47:43.600Z",
+    "type": "create",
+    "market": "6DZiKebV6kdJjHCSsZx2ctDcWm6UXCeytiC8adtjmPTt",
+    "marketId": "210690456911532",
+    "name": "SOL > $72.61 by 12:47?",
+    "strike": 72.61,
+    "depositUsdc": 50,
+    "sig": "5hKJUVXhucrdPter5cGQYb433heYVwLF8PDT5FpBbrmForJ27sqcoqaQiHrbp4k1JrWumEkCBDWNpF4N7QfcmAYf",
+    "note": "created \"SOL > $72.61 by 12:47?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T11:47:43.605Z",
+    "type": "trade-skip",
+    "market": "6DZiKebV6kdJjHCSsZx2ctDcWm6UXCeytiC8adtjmPTt",
+    "note": "no momentum signal (price vs MA/15m flat) — LP only"
+  },
+  {
+    "ts": "2026-11-15T12:50:19.960Z",
+    "type": "resolve",
+    "market": "6DZiKebV6kdJjHCSsZx2ctDcWm6UXCeytiC8adtjmPTt",
+    "outcome": "yes",
+    "priceAtExpiry": 72.67,
+    "strike": 72.61,
+    "sig": "4PNEz3SL5xt35YXy6s9oEX5eUUUYsLTJ4DnAiq5CtK1GBg42PN4Po7iLZ2aAVEf4RAVfP8Ps1R6NoHcM6oi7P2y",
+    "note": "resolved YES (SOL $72.67 vs $72.61)"
+  },
+  {
+    "ts": "2026-11-15T12:50:22.395Z",
+    "type": "claim-lp",
+    "market": "6DZiKebV6kdJjHCSsZx2ctDcWm6UXCeytiC8adtjmPTt",
+    "sig": "39V6UkqaPTQNVsNkSvscw9gcaZHetgaad4nY7McjG7wA1v536HTbCraZkYtMBybupR31UmvYDX1KMkNfHKMJXpfE",
+    "note": "claimed LP residuals"
+  },
+  {
+    "ts": "2026-11-15T12:50:24.901Z",
+    "type": "claim",
+    "market": "6DZiKebV6kdJjHCSsZx2ctDcWm6UXCeytiC8adtjmPTt",
+    "amount": 49.999999,
+    "sig": "3BvG2fEabAfabWJFJ3oGG32dRgGogd4XFUDoL1aHjAx7zbENiCFdi1xHZMEYyfJb8YZMiT6HL9pV1SQHMCztewYC",
+    "note": "claimed 49.999999 mUSDC winnings"
+  },
+  {
+    "ts": "2026-11-15T13:49:35.614Z",
+    "type": "create",
+    "market": "BXxAL9c3wdfJZVYb3NtBSoqkYT61KgGJpZL1rCih63dP",
+    "marketId": "69110166293201",
+    "name": "SOL > $72.78 by 14:49?",
+    "strike": 72.78,
+    "depositUsdc": 50,
+    "sig": "po8DjVegQVU7uLxb278uzLsSuixGSSatA9ccRTLTjQX8rubJ41yMdNMxsS6vc5aPYVUjeGhncpzQbvFGbGpouUS",
+    "note": "created \"SOL > $72.78 by 14:49?\" (50 mUSDC LP)"
+  },
+  {
+    "ts": "2026-11-15T13:49:38.769Z",
+    "type": "trade",
+    "market": "BXxAL9c3wdfJZVYb3NtBSoqkYT61KgGJpZL1rCih63dP",
+    "side": "yes",
+    "amount": 10,
+    "sig": "5XbXCbyjqK3yNTW3HpjGjxhqMHPi4ip6fZfCGjfpDkyR5ZypEqEjG7FYRoZUBx3JHomXw4jM36jN5GE7izAuWD1n",
+    "note": "bought YES 10 mUSDC (momentum) -> YES 55.9%"
   }
 ]
