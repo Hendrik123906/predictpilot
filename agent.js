@@ -34,6 +34,24 @@ const ACTIVITY_FILE = "./activity.json";
 const UA = { "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Retry helper for the public devnet RPC's HTTP 429 rate limits (settle step).
+// Retries ONLY rate-limit-like errors; any other error throws immediately.
+// Safe to re-run settle(): it returns early if the market is already resolved,
+// and the LP-claim step already swallows its own errors.
+const isRateLimit = (e) => /429|rate limit|too many requests/i.test(String((e && e.message) || e));
+async function withSettleRetry(fn, label) {
+  const waits = [30000, 60000, 120000];
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await fn();
+    } catch (e) {
+      if (!isRateLimit(e) || attempt >= waits.length) throw e;
+      console.log(`${label}: rate-limited (attempt ${attempt + 1}), retrying in ${waits[attempt] / 1000}s...`);
+      await sleep(waits[attempt]);
+    }
+  }
+}
 const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return d; } };
 const writeJson = (f, o) => fs.writeFileSync(f, JSON.stringify(o, null, 2));
 function logActivity(e) {
@@ -274,7 +292,7 @@ async function cycle(test) {
   const waitMs = (endTs - Math.floor(Date.now() / 1000) + 15) * 1000;
   console.log(`waiting ${Math.round(waitMs / 1000)}s for market expiry...`);
   await sleep(waitMs);
-  const res = await settle(conn, kp, client, rec);
+  const res = await withSettleRetry(() => settle(conn, kp, client, rec), "settle");
   rec.settled = res;
   writeJson(MARKETS_FILE, markets);
   const bal = await conn.getBalance(kp.publicKey);
@@ -295,7 +313,7 @@ async function main() {
     const markets = readJson(MARKETS_FILE, []);
     const rec = markets.find((m) => m.pda === arg1) || { pda: arg1, strike: Number(process.argv[3]) };
     if (!rec.strike) throw new Error("settle needs a markets.json entry or a strike: node agent.js settle <pda> <strike>");
-    await settle(conn, kp, client, rec);
+    await withSettleRetry(() => settle(conn, kp, client, rec), "settle");
     return;
   }
   console.log("usage: node agent.js cycle [--test] | node agent.js settle <marketPda> [strike]");
