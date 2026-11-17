@@ -13,7 +13,7 @@ Status: DRAFT — video v3 in production, YouTube upload + Devpost submit pendin
 - **Bounties:** NONE (Gemini Prediction Markets bounty requirements unverified — PredictPilot trades pm-AMM, not Gemini; do not opt in blindly)
 - **Repo:** https://github.com/Hendrik123906/predictpilot
 - **Live demo:** https://hendrik123906.github.io/predictpilot/
-- **Demo video:** YouTube link (v3, 2m14s) — PENDING upload
+- **Demo video:** https://www.youtube.com/watch?v=tQhQ42e8y1k (v3, 2m17s, Unlisted — uploaded 15 Nov 21:33 WIB)
 - **Team:** Bambang Hendri Susanto (solo) — GitHub Hendrik123906, X @Selimar30, email bambanghendri71@gmail.com
 
 ## Description (for the form)
