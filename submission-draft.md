@@ -47,16 +47,17 @@ test SOL/mock USDC from the faucet when low.
   (user's OKX Solana address — NOT the devnet agent wallet)
 
 ## Traction so far (honest numbers, verified 17 Nov 14:43 WIB from activity.json)
-- **27 markets created, 27 resolved, 27 claims, 27 LP claims** (15–17 Nov)
-- **14 momentum trades, 135 mUSDC traded** (10 mUSDC each; 13 cycles LP-only,
+- **28 markets created, 28 resolved, 28 claims, 28 LP claims** (15–17 Nov)
+- **14 momentum trades, 135 mUSDC traded** (10 mUSDC each; 14 cycles LP-only,
   no signal) — settled-trade record **6W–8L**
-- **1,320 mUSDC LP seeded** across the 27 markets (50 mUSDC each)
+- **1,370 mUSDC LP seeded** across the 28 markets (50 mUSDC each)
 - Auto-cycle cron every 2h running hands-free since 15 Nov 06:47 WIB
   (faucet top-up + flock lock + dashboard data sync)
 - Dashboard: static export, live devnet reads (markets, balances,
   SOL price), activity feed with Solscan links
-- Latest cycle 17 Nov 12:47 WIB: market "SOL > $72.85 by 06:47?" resolved NO
-  (SOL $72.59), YES trade lost, 59.799999 mUSDC claimed — net ~−0.2 mUSDC
+- Latest cycle 17 Nov 15:53 WIB: market "SOL > $72.82 by 08:47?" resolved NO
+  (SOL $72.38), LP-only (no momentum signal), 50 mUSDC claimed — cycle settle
+  hit HTTP 429 after 3 retries, recovered by one manual settle (exit 0)
 
 ## Honest limitations (do not hide these)
 - Devnet only; mock USDC + test SOL — nothing here has real value.
